@@ -13,13 +13,14 @@
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build:dev": "node build/build.js",
     "build:test": "node build/build.js",
+    "build:customer": "node build/build.js",
     "build": "node build/build.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
     "bignumber.js": "^7.2.1",
     "bumo-sdk": "^2.1.0",
-    "contract-editor-sdk": "git+https://github.com/bupriv/contract-editor-sdk.git#1.0.0",
+    "contract-editor-sdk": "git+https://github.com/bupriv/contract-editor-sdk.git#customer",
     "chai": "^4.1.2",
     "co-wrap-all": "^1.0.0",
     "element-ui": "^2.4.2",
