@@ -11,7 +11,11 @@ const webpack = require('webpack')
 const config = require('../config')
 const webpackConfig = require('./webpack.prod.conf')
 
+console.log(chalk.yellow('process.env.BASE_API: ' + process.env.BASE_API))
+console.log(chalk.yellow('process.env.PROTOCOL: ' + process.env.PROTOCOL))
+
 const spinner = ora('building for production...')
+
 spinner.start()
 
 rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err => {

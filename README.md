@@ -2,6 +2,10 @@
 
 > A Vue.js project
 
+## Editor Configure
+[vue2-ace-editor](https://github.com/chairuosen/vue2-ace-editor)
+[Configuring Ace](https://github.com/ajaxorg/ace/wiki/Configuring-Ace)
+
 ## Build Setup
 
 ``` bash
