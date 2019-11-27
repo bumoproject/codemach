@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://192.168.6.98:3002',
+        target: 'https://cme.bumo.io/',
         // target: 'http://192.168.1.91:8080/bumo-news',
         changeOrigin: true,
         pathRewrite: {

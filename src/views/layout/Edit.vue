@@ -32,6 +32,11 @@
 </template>
 
 <script>
+/**
+ * Editor Configure
+ * vue2-ace-editor https://github.com/chairuosen/vue2-ace-editor
+ * Configuring Ace https://github.com/ajaxorg/ace/wiki/Configuring-Ace
+ */
 import Console from './Console'
 import { mapGetters } from 'vuex'
 import drag from '../../assets/js/drag.js'
@@ -57,7 +62,8 @@ export default {
         highlightGutterLine: true,
         showPrintMargin: false,
         fontSize: 14,
-        tabSize: 2
+        tabSize: 2,
+        firstLineNumber: 0
       },
       editorRisize: 1
     }

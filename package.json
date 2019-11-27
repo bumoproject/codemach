@@ -1,11 +1,13 @@
 {
   "name": "codemach",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vue.js project",
   "author": "wenhai<huangwenhai@bubi.cn>",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev:test": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "dev:prod": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest --config test/unit/jest.conf.js --coverage",
     "e2e": "node test/e2e/runner.js",
@@ -13,6 +15,7 @@
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
     "build:dev": "node build/build.js",
     "build:test": "node build/build.js",
+    "build:prod": "node build/build.js",
     "build": "node build/build.js"
   },
   "dependencies": {
